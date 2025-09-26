@@ -8,9 +8,9 @@ data = {'Name': ['Alice', 'Harish', 'Charlie'],
 
 df = pd.DataFrame(data)
 
-# # Adding a new row to df for V2
-# new_row_loc = {'Name':'V2', 'Age': 28, 'City': 'Tampa'}
-# df.loc[len(df.index)] = new_row_loc
+# Adding a new row to df for V2
+new_row_loc = {'Name':'V2', 'Age': 28, 'City': 'Tampa'}
+df.loc[len(df.index)] = new_row_loc
 
 # # Adding a new row to df for V3
 # new_row_loc2 = {'Name':'V3', 'Age': 21, 'City': 'Tampa'}
